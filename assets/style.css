@@ -1,0 +1,85 @@
+:root {
+--light-blue: #095bd6a9;
+--black: #000000;
+--blue: #2471e462;
+--red: #f31414b9;
+--pink: #ffc0cb;
+--grey: #808080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--grey);
+    background-color:var(--light-blue) ;
+    
+}
+
+header {
+    background-color:#ffc0cb ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+header div {
+    box-shadow: 3px 3px 5px rgba(rgb(160, 94, 94), #f31414b9, #266acfbd, alpha);
+}
+
+header h1{
+    color: var(--light-blue);
+    font-size: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--light-blue);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header nav ul li a {
+    padding: 15px;
+    font-size: 30px;
+    margin: 20px 20px 0 0;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    background: var(--blue);
+    color: var(--red);
+    border-radius: 20px;
+}
+
+.hero {
+    background-image:url(../images/ws_Minimalistic_Clouds_2560x1600.png);
+    height: 400px;
+    background: size 15px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.hero img {
+    height: 300px;
+}
+.hero .text {
+    font-size: 50px;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    color: #808080;
+}
+
