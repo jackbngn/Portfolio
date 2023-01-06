@@ -73,7 +73,7 @@ header nav ul li a:hover {
 }
 
 .hero img {
-    height: 300px;
+    height: 325px;
 }
 
 .hero .text {
@@ -138,8 +138,8 @@ header nav ul li a:hover {
 }
 
 .projects-grid {
-    width: 70%;
-    display: grid;
+    width: 90%;
+    display:grid ;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 10px;
@@ -154,7 +154,7 @@ header nav ul li a:hover {
     text-decoration: none;
     background-size: cover;
     background-position: center;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .project:hover {
@@ -175,21 +175,22 @@ header nav ul li a:hover {
 
 .project-3 {
     background-image: url("");
+    background-position: 50% 15%;
 }
 
 .project-4 {
     background-image: url("");
 }
 
-/* .project-5 {
+.project-5 {
     background-image: url("");
-} */
+}
 
 .project-label {
-    /*background-color: var(--secondary);*/
+    background-color: var(--black);
     background-color: lightgray;;
-    color: var(--primary);
-    padding: 10px;
+    color: var(--black);
+    padding: 7px;
 }
 /* my work section styling end */
 
@@ -225,7 +226,7 @@ footer ul {
 }
 
 footer ul li {
-    /*padding-bottom: 15px;*/
+    padding-bottom: 15px;
     font-weight: bold;
 
 }
@@ -233,7 +234,7 @@ footer ul li {
 footer ul li a {
     text-decoration: none;
     color: var(--black);
-    padding: 8px;
+    padding: 10px;
     font-weight: bold;
 }
 
@@ -286,7 +287,7 @@ footer ul li a:hover {
     }
 
     .title {
-        border-bottom: 5px solid var(--pop);
+        border-bottom: 5px solid var(--black);
         border-right: none;
         text-align: center;
         min-width: 100%;
