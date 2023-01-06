@@ -122,8 +122,8 @@ header nav ul li a:hover {
 .my-work {
     padding: 30px 0;
     display: flex;
-    justify-content: space-evenly;
-    background-color: var();
+    justify-content: space-between;
+    background-color: var(--light-blue);
 }
 
 .my-work h2 {
@@ -165,6 +165,7 @@ header nav ul li a:hover {
     grid-column: 1/3;
     grid-row: span 1;
     background-image: url("/images/01-html-css-git-homework-demo.png");
+    background-position: 50% 15%;
 }
 
 .jack-portfolio {
@@ -174,7 +175,6 @@ header nav ul li a:hover {
 
 .project-3 {
     background-image: url("");
-    background-position: 60% 50%;
 }
 
 .project-4 {
@@ -189,7 +189,7 @@ header nav ul li a:hover {
     /*background-color: var(--secondary);*/
     background-color: lightgray;;
     color: var(--primary);
-    padding: 50px;
+    padding: 10px;
 }
 /* my work section styling end */
 
@@ -207,10 +207,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--black);
 }
 
 #contact-list {
-    width: 60%;
+    width: 80%;
 }
 
 footer ul {
@@ -231,14 +232,14 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-    color: var(--primary);
+    color: var(--black);
     padding: 8px;
     font-weight: bold;
 }
 
 footer ul li a:hover {
-    background: var(--pop);
-    color: var(--secondary);
+    background: var(--blue);
+    color: var(--red);
     border-radius: 15px;
 }
 /* contact me section styling end */
