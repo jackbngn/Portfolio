@@ -75,27 +75,14 @@ header nav ul li a:hover {
 .hero img {
     height: 300px;
 }
+
 .hero .text {
-    font-size: 50px;
-    display: flex;
-    justify-content: end;
-    text-align: right;
-    color: #808080;
-}
-
-
-.hero .quote {
-    font-size: 35px;
+    font-size: 80px;
     display: flex;
     justify-content: end;
     text-align: right;
     color: var(--black);
 }
-
-.hero .quote #quote-text {
-    font-size: 48px;
-}
-/* hero styling end */
 
 /* utility class styling start */
 .title {
@@ -105,6 +92,7 @@ header nav ul li a:hover {
     padding-right: 40px;
     min-width: 20%;
     max-width: 20%;
+    color: var(--black);
 }
 
 .title h2 {
@@ -126,6 +114,7 @@ header nav ul li a:hover {
     padding: 0 30px;
     line-height: 1.6;
     width: 90%;
+    color: #000000;
 }
 /* about me section styling end */
 
@@ -133,12 +122,12 @@ header nav ul li a:hover {
 .my-work {
     padding: 30px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: var();
 }
 
 .my-work h2 {
-    color: var(--secondary);
+    color: var(--black);
 }
 
 .projects-grid-wrapper {
@@ -174,13 +163,13 @@ header nav ul li a:hover {
 
 .horiseon-project {
     grid-column: 1/3;
-    grid-row: span 2;
+    grid-row: span 1;
     background-image: url("/images/01-html-css-git-homework-demo.png");
 }
 
 .jack-portfolio {
-    background-image: url("");
-    background-position: 50% 50%;
+    background-image: url("/images/screencapture-127-0-0-1-5500-index-html-2023-01-05-22_33_18.png");
+    background-position: 50% 15%;
 }
 
 .project-3 {
@@ -192,9 +181,9 @@ header nav ul li a:hover {
     background-image: url("");
 }
 
-.project-5 {
+/* .project-5 {
     background-image: url("");
-}
+} */
 
 .project-label {
     /*background-color: var(--secondary);*/
