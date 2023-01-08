@@ -254,7 +254,7 @@ footer ul li a:hover {
 }
 
 /* MEDIA QUERY FOR MOBILE PHONE SCREENS AND SMALLER */
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 390px) {
     header {
         justify-content: center;
         padding: 20px;
@@ -266,11 +266,6 @@ footer ul li a:hover {
 
     .hero {
         flex-direction: column;
-    }
-
-    .hero .text #text {
-        font-size: 20px;
-        padding-right: 10px;
     }
 
     .about-me {
